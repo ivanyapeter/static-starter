@@ -1,0 +1,28 @@
+{
+  "name": "static-starter",
+  "version": "1.0.0",
+  "description": "Starter for static website with Gulp, BrowserSync, ES2015, Sass",
+  "main": "index.js",
+  "scripts": {
+    "start": "gulp",
+    "build": "gulp build --production",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ivan Yapeter",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-preset-es2016": "^6.11.0",
+    "browser-sync": "^2.13.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-babel": "^6.1.2",
+    "gulp-concat": "^2.6.0",
+    "gulp-eslint": "^3.0.1",
+    "gulp-imagemin": "^3.0.1",
+    "gulp-load-plugins": "^1.2.4",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.3.2",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-uglify": "^1.5.4"
+  }
+}
