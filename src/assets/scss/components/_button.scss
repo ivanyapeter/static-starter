@@ -1,0 +1,99 @@
+html {
+  background: #fcfcfc;
+  font-family: "Trebuchet MS", Arial;
+  margin: 20px 40px;
+}
+
+.row {
+  margin-bottom: 1em;
+}
+
+.h-float-left {
+  float: left;
+}
+
+
+/* - - - - - - Button Styles - - - - - - */
+
+
+/* Block / Object / Module */
+
+.button {
+  -webkit-appereance: none;
+  background: white;
+  border: 2px solid;
+  box-sizing: border-box;
+  color: black;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 700;
+  height: 46px;
+  letter-spacing: .1em;
+  line-height: 42px;
+  margin: 0;
+  padding: 0 1.5em;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  &:focus {
+    outline: none;
+  }
+  /* Variation */
+  // Structure  
+  &.-rounded {
+    border-radius: 2em;
+  }
+  &.-small {
+    padding: 0 .5em;
+    height: 24px;
+    line-height: 20px;
+  }
+  &.-medium {
+    padding: 0 1em;
+    height: 36px;
+    line-height: 32px;
+  }
+  &.-block {
+    display: block;
+    width: 100%;
+    margin: 1em 0;
+  }
+  // Skin
+  &.-primary,
+  &.-primary-inverse:hover {
+    background: #fff;
+    border-color: #9ab833;
+    color: #9ab833;
+  }
+  &.-primary:hover,
+  &.-primary-inverse {
+    background: #9ab833;
+    border-color: #9ab833;
+    color: #fff;
+  }
+  &.-secondary,
+  &.-secondary-inverse:hover {
+    background: #fff;
+    border-color: #ccc;
+    color: #666;
+  }
+  &.-secondary:hover,
+  &.-secondary-inverse {
+    background: #666;
+    border-color: #666;
+    color: #fff;
+  }
+  &.-tertiary,
+  &.-tertiary-inverse:hover {
+    background: #eaeaea;
+    border-color: #eaeaea;
+    color: #666;
+  }
+  &.-tertiary:hover,
+  &.-tertiary-inverse {
+    background: #ccc;
+    border-color: #ccc;
+    color: #fff;
+  }
+}
