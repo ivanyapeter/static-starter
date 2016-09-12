@@ -111,7 +111,7 @@ gulp.task('scss-lint', () =>
 // Watch Task
 // //////////////////////////////////////////////////////
 gulp.task('watch', () => {
-  gulp.watch(['src/assets/scss/**/*.scss'], ['styles', 'scss-lint']);
-  gulp.watch(['src/assets/js/**/*.js'], ['script', 'eslint']);
+  gulp.watch([cssPaths.srcFiles + '/**/*.scss'], ['styles', 'scss-lint']);
+  gulp.watch([jsPaths.srcFiles + '/**/*.js'], ['script', 'eslint']);
   gulp.watch(['*.html'], ['html']);
 });
